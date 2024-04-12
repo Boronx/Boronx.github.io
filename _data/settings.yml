@@ -1,0 +1,48 @@
+#-------------------------------
+# General Site Settings
+title: Boronx
+logo: boronx_logo.png # You can add own logo.
+description: Boronx is my personal homepage.
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: Xiao, Wenbo
+  image: profile.jpg
+  say-hello: Hello, I’m <strong>XIAO Wenbo</strong>
+  bio: |
+    Life enthusiast, time traveller. Double master student in &#x1F1E8;&#x1F1F3; <a href="https://www.tongji.edu.cn/">Tongji University</a> 
+    and &#x1F1E6;&#x1F1F9; <a href="https://www.tugraz.at/">TU Graz.</a>
+    <br>Research interests: <b><i>Intelligent Vehicles Safety</i></b>,
+    <b><i>Scenario-based Validation</i></b>, <b><i>Mahine Learning</i></b>,  <br>and so on.
+  
+
+#-------------------------------
+# Contact links
+github: https://github.com/Boronx
+# twitter: https://twitter.com/wenb_xiao # Add your Twitter handle
+# bilibili: https://space.bilibili.com/24410572 # Add your Bilibili handle
+instagram: https://www.instagram.com/wenb_xiao/ # Add your Instagram handle
+linkedin: https://www.linkedin.com/in/wenbo-xiao-a9a174173/ # Add your LinkedIn handle
+yuque: https://www.yuque.com/boron # Add your Yuque handle
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: WB # add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: wenb_xiao # Add instagram username
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e

@@ -1,0 +1,66 @@
+.page-title-box {
+  padding: 20px 0;
+  border-top: 1px solid $light-gray;
+
+  .page-title {
+    font-size: 40px;
+    line-height: 55px;
+    margin: 0;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    padding: 20px 0;
+
+    .page-title {
+      font-size: 40px;
+      line-height: 53px;
+    }
+  }
+}
+
+.page__head {
+  
+  .page-image {
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $light-gray;
+    &:after {
+      content: "";
+      display: table;
+      width: 100%;
+      min-height: 100px; // Decreased height by half
+      padding-top: 40%; // Decreased padding-top by half
+    }
+  }
+}
+
+.page {
+  margin: 20px auto;
+
+  img {
+    margin: 20px 0;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    margin: 20px auto;
+  }
+}
+
+
+.page-box {
+  text-align: center;
+
+  .back-arrow {
+    a {
+      display: inline-block;
+      margin-left: 10px;
+      color: $dark;
+      font-weight: 700;
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+
