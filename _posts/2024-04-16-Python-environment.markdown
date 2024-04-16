@@ -1,7 +1,7 @@
- ---
+---
 layout: post
-title:  "Python environts!"
-date:   2024-04-16 1:44:00 +0200
+title:  "Python environments installation"
+date:   2024-04-16 11:44:00 +0200
 image:  post-python-environment.jpg
 tags:   Python, Coding, Tech
 ---
