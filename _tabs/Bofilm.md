@@ -1,5 +1,0 @@
----
-layout: page
-icon: fas fa-camera
-order: 3
----
