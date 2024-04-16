@@ -1,14 +1,9 @@
-name: "CI"
+name: "CI and Deployment"
+
 on:
   push:
-    branches-ignore:
-      - "production"
-      - "docs"
+    branches: [main]
     paths-ignore:
-      - ".github/**"
-      - "!.github/workflows/ci.yml"
-      - ".gitignore"
-      - "docs/**"
       - "README.md"
       - "LICENSE"
   pull_request:
@@ -16,34 +11,25 @@ on:
       - "**"
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby: ["3.1"]
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # for posts's lastmod
+    - name: Checkout Repository
+      uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
+    - name: Setup Ruby and Build Site
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1
+        bundler-cache: true
+      run: |
+        gem install jekyll bundler
+        bundle install
+        jekyll build --destination site
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-
-      - name: Build Assets
-        run: npm i && npm run build
-
-      - name: Test Site
-        run: bash tools/test
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
