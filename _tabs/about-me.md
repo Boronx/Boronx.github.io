@@ -7,13 +7,17 @@ order: 1
 > Add Markdown syntax content to file `_tabs/about-me.md`{: .filepath } and it will show up on this page.
 > {: .prompt-tip }
 
+![Desktop View](/assets/img/favicons/images/profile-in-cv.jpg){: width="972" height="589" }
+
+<!-- _Full screen width and center alignment_ use this as the caption -->
+
 ## Xiao, Wenbo
 
 <div style="display: flex; gap: 10px; ">
-  <div style="flex: 1; background-color: #F5F5F5; padding: 5px; border-radius: 5px;">
+  <div style="flex: 1; background-color: lightgray; padding: 5px; border-radius: 5px;">
     这是左半边内容。
   </div>
-  <div style="flex: 1; background-color: #F5F5F5; padding: 5px; border-radius: 5px;">
+  <div style="flex: 1; background-color: lightgray; padding: 5px; border-radius: 5px;">
     这是右半边内容。
   </div>
 </div>
