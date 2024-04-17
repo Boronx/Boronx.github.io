@@ -4,17 +4,25 @@ icon: fas fa-quote-left
 order: 2
 ---
 
-## Publications
+## **Publications**
 
-### Conference paper
+### UniXXX: A XXX
 
-- Chat2Scenario
+A B\*, M B\*, Ki<br>
+_In Arxiv (Preprint), ITSC Submitted, 2024_
 
-### Journal
+<a href="https://www.example.com" class="tag"><small>PDF</small></a>
+<a href="https://www.example.com" class="tag"><small>CODE</small></a>
+<a href="https://www.example.com" class="tag"><small>CITE</small></a>
 
-- Coming soon!
+A B\*, M B\*, Ki<br>
+_In Arxiv (Preprint), ITSC Submitted, 2024_
 
-### Patent
+<a href="https://www.example.com" class="tag"><small>PDF</small></a>
+<a href="https://www.example.com" class="tag"><small>CODE</small></a>
+<a href="https://www.example.com" class="tag"><small>CITE</small></a>
+
+## **Patent**
 
 - Classification and Coding Methods of Driving Scenarios  
   _`Chinese patent`_ _`Number: CN202210473739.9`_
@@ -25,13 +33,13 @@ order: 2
 
 ---
 
-## Projects
+## **Projects**
 
-### PECOP `TUG TJU`
+### PECOP `TUG` `TJU`
 
 > _International coopperative R&D project between China and Austria_
 
-### Toolchain for Simulation and Digital-twin-based Evaluation of ADS _`TJU`_
+### Toolchain for Simulation and Digital-twin-based Evaluation of ADS `TJU`
 
 > _National Key Research and Development Program_
 
