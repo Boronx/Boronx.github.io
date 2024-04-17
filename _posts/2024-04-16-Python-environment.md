@@ -2,7 +2,7 @@
 title: Python environment
 author: Boron
 date: 2024-04-16 11:34:00 +0200
-categories: [Blogging, Tutorial]
+categories: [Blogs, Tutorial]
 tags: [Python]
 ---
 
