@@ -2,7 +2,6 @@
 layout: default
 refactor: true
 ---
-
 {% include lang.html %}
 
 {% assign pinned = site.posts | where: 'pin', 'true' %}
@@ -116,3 +115,24 @@ refactor: true
 {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
 {% endif %}
+
+<style>
+  .rounded-container {
+    display: flex;
+    justify-content: center; /* 在主轴上居中对齐 */
+    border-radius: 10px; /* 调整圆角大小 */
+    padding: 10px; /* 添加内边距来留出空间 */
+    margin-top: 20px; /* 留出顶部空间 */
+    margin-bottom: 20px; /* 留出底部空间 */
+    background-color: #5b5b5b; /* 设置背景颜色 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 添加阴影 */
+  }
+</style>
+
+<div class="rounded-container">
+  <script
+    type="text/javascript"
+    id="clustrmaps"
+    src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=mDy170c3cVfgUXHv-R9T59uM4g0JqSSnY_tA1ZJUakM&co=5b5b5b&cmo=727272&cmn=35d135&ct=ffffff"
+  ></script>
+</div>
