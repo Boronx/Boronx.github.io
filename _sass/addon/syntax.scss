@@ -178,6 +178,12 @@ div {
   }
 }
 
+.hidden-text {
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
+
 .code-header {
   @extend %no-cursor;
 

@@ -8,7 +8,7 @@ order: 1
 
 ## Xiao, Wenbo (肖文博) [`pdf` ](https://git-scm.com/)
 
-<a href="https://www.example.com" class="tag"><small>PDF</small></a><a href="https://www.example.com" class="tag"><small>CODE</small></a>
+
 
 <div style="display: flex; gap: 10px; ">
   <div style="flex: 1; background-color: lightgray; padding: 5px; border-radius: 5px;">
