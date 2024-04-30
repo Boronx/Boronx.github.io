@@ -1,7 +1,7 @@
 ---
-title: FSAE
+title: FSEC 2020 - We ARE THE CHAMPIONS!
 author: Boron
-date: 2024-04-16 16:34:00 +0200
+date: 2020-11-14 18:34:00 +0800
 categories: [Plogs, Life]
 pin: true
 tags: [FSAE]

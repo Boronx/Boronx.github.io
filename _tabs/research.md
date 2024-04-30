@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: post
 icon: fas fa-quote-left
 order: 2
 ---
+
+# yes
 
 ## **Publications**
 

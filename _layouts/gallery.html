@@ -1,0 +1,66 @@
+---
+layout: page
+# The Archives of posts.
+---
+{% include lang.html %}
+
+<article class="px-1">
+  <header>
+    <div class="post-meta text-muted">
+      {% if page.image %}
+        {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+        {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+        {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
+
+        {% if page.image.lqip %}
+          {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
+        {% endif %}
+
+        <div class="mt-3 mb-3">
+          <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
+          {%- if page.image.alt -%}
+            <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+          {%- endif -%}
+        </div>
+      {% endif %}
+
+      <!-- .d-flex -->
+    </div>
+    <!-- .post-meta -->
+  </header>
+
+  <div class="content">
+    {{ content }}
+  </div>
+</article>
+
+{% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
+{% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
+
+<div id="archives" class="pl-xl-3">
+  {% for post in site.posts %}
+    {% if post.categories contains 'Plogs' %}
+      {% assign cur_year = post.date | date: '%Y' %}
+
+      {% if cur_year != last_year %}
+        {% unless forloop.first %}</ul>{% endunless %}
+
+        <time class="year lead d-block">{{ cur_year }}</time>
+        {{ '<ul class="list-unstyled">' }}
+
+        {% assign last_year = cur_year %}
+      {% endif %}
+
+      <li>
+        {% assign ts = post.date | date: '%s' %}
+        <span class="date day" data-ts="{{ ts }}" data-df="DD">{{ post.date | date: '%d' }}</span>
+        <span class="date month small text-muted ms-1" data-ts="{{ ts }}" data-df="{{ df_dayjs_m }}">
+          {{ post.date | date: df_strftime_m }}
+        </span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+
+      {% if forloop.last %}</ul>{% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
