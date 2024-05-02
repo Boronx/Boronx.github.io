@@ -23,10 +23,12 @@ function copyText(textToCopy) {
 _Yongqi Zhao, **Wenbo Xiao\***, Tomislav Mihalj, Jia Hu and Arno Eichberger<br>_
 _In Arxiv (Preprint), IEEE IV Accepted, 2024_
 
-<a href="https://arxiv.org/pdf/2404.16147" class="tag"><small>PDF</small></a>
-<a href="https://github.com/ftgTUGraz/Chat2Scenario" class="tag"><small>CODE</small></a>
-<a href="#" onclick="copyText('Cite_chat2s'); return false;" class="tag"><small>BibTeX</small></a>
-<a href="https://plu.mx/plum/a/?doi=10.48550/arXiv.2404.16147" data-popup="right" data-badge="true" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-mentions="true" data-hide-usage="true">High-Fidelity Tissue Engineering of Patient-Specific Auricles for Reconstruction of Pediatric Microtia and Other Auricular Deformities</a>
+<div class="container">
+  <a href="https://arxiv.org/pdf/2404.16147" class="tag"><small>PDF</small></a>
+  <a href="https://github.com/ftgTUGraz/Chat2Scenario" class="tag"><small>CODE</small></a>
+  <a href="#" onclick="copyText('Cite_chat2s'); return false;" class="tag"><small>BibTeX</small></a>
+  <a href="https://plu.mx/plum/a/?doi=10.48550/arXiv.2404.16147" data-popup="right" data-badge="true" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-mentions="true" data-hide-usage="true"></a>
+</div>
 
 <p id="Cite_chat2s" class="hidden-text">
 @misc{zhao2024chat2scenario,
@@ -44,9 +46,11 @@ _In Arxiv (Preprint), IEEE IV Accepted, 2024_
 _Xingyu Zhao, **Wenbo Xiao**, Tao Zhou, Haolan Meng_<br>
 _SAE 2022 Intelligent and Connected Vehicles Symposium, ICVS 2022, Shanghai_
 
-<a href="/assets/papers/Research_on_the_Occupant_Discomfort_Due_to_Safety_Perception_in_Overtaking_Scenarios.pdf" class="tag"><small>PDF</small></a>
-<a href="#" onclick="copyText('Cite_discomfortZhao'); return false;" class="tag"><small>BibTeX</small></a>
-<a href="https://plu.mx/plum/a/?doi=10.4271/2022-01-7089" data-popup="right" data-badge="true" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-mentions="true" data-hide-usage="true">High-Fidelity Tissue Engineering of Patient-Specific Auricles for Reconstruction of Pediatric Microtia and Other Auricular Deformities</a>
+<div class="container">
+  <a href="/assets/papers/Research_on_the_Occupant_Discomfort_Due_to_Safety_Perception_in_Overtaking_Scenarios.pdf" class="tag"><small>PDF</small></a>
+  <a href="#" onclick="copyText('Cite_discomfortZhao'); return false;" class="tag"><small>BibTeX</small></a>
+  <a href="https://plu.mx/plum/a/?doi=10.4271/2022-01-7089" data-popup="right" data-badge="true" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-mentions="true" data-hide-usage="true"></a>
+</div>
 
 <p id="Cite_discomfortZhao" class="hidden-text">
 @inproceedings{2022-01-7089,
