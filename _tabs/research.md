@@ -18,33 +18,6 @@ function copyText(textToCopy) {
 
 ## **Publications**
 
-<div class="container-two">
-  <div class="left">
-    <h3><a href="https://graz.elsevierpure.com/en/publications/chat2scenario-scenario-extraction-from-dataset-through-utilizatio">Chat2Scenario: Scenario Extraction From Dataset Through Utilization of Large Language Model</a></h3>
-    <p>Yongqi Zhao, <strong>Wenbo Xiao*</strong>, Tomislav Mihalj, Jia Hu and Arno Eichberger</p>
-    <p>In Arxiv (Preprint), IEEE IV Accepted, 2024</p>
-    <a href="https://arxiv.org/pdf/2404.16147" class="tag"><small>PDF</small></a>
-    <a href="https://github.com/ftgTUGraz/Chat2Scenario" class="tag"><small>CODE</small></a>
-    <a href="#" onclick="copyText('Cite_chat2s'); return false;" class="tag"><small>BibTeX</small></a>
-  </div>
-  <div class="right">
-    <a href="https://plu.mx/plum/a/?arxiv=2404.16147" class="plumx-plum-print-popup" data-popup="right"></a>
-  </div>
-</div>
-
-<div class="container-two">
-  <div class="left">
-    <h3><a href="https://www.sae.org/publications/technical-papers/content/2022-01-7089/">Research on the Occupant Discomfort due to Safety Perception in Overtaking Scenarios</a></h3>
-    <p>Xingyu Zhao, <strong>Wenbo Xiao</strong>, Tao Zhou, Haolan Meng</p>
-    <p>SAE 2022 Intelligent and Connected Vehicles Symposium, ICVS 2022, Shanghai</p>
-    <a href="/assets/papers/Research_on_the_Occupant_Discomfort_Due_to_Safety_Perception_in_Overtaking_Scenarios.pdf" class="tag"><small>PDF</small></a>
-    <a href="#" onclick="copyText('Cite_discomfortZhao'); return false;" class="tag"><small>BibTeX</small></a>
-  </div>
-  <div class="right">
-    <a href="https://plu.mx/plum/a/?doi=10.4271/2022-01-7089" class="plumx-plum-print-popup" data-popup="right"></a>
-  </div>
-</div>
-
 ### [Chat2Scenario: Scenario Extraction From Dataset Through Utilization of Large Language Model](https://graz.elsevierpure.com/en/publications/chat2scenario-scenario-extraction-from-dataset-through-utilizatio)
 
 _Yongqi Zhao, **Wenbo Xiao\***, Tomislav Mihalj, Jia Hu and Arno Eichberger<br>_
@@ -53,6 +26,7 @@ _In Arxiv (Preprint), IEEE IV Accepted, 2024_
 <a href="https://arxiv.org/pdf/2404.16147" class="tag"><small>PDF</small></a>
 <a href="https://github.com/ftgTUGraz/Chat2Scenario" class="tag"><small>CODE</small></a>
 <a href="#" onclick="copyText('Cite_chat2s'); return false;" class="tag"><small>BibTeX</small></a>
+<a href="https://plu.mx/plum/a/?doi=10.4271/2022-01-7089" class="plumx-plum-print-popup" data-popup="right"></a>
 
 <p id="Cite_chat2s" class="hidden-text">
 @misc{zhao2024chat2scenario,
@@ -64,6 +38,15 @@ _In Arxiv (Preprint), IEEE IV Accepted, 2024_
       primaryClass={cs.RO}
 }
 </p>
+
+### [Research on the Occupant Discomfort due to Safety Perception in Overtaking Scenarios](https://www.sae.org/publications/technical-papers/content/2022-01-7089/)
+
+_Xingyu Zhao, **Wenbo Xiao**, Tao Zhou, Haolan Meng_<br>
+_SAE 2022 Intelligent and Connected Vehicles Symposium, ICVS 2022, Shanghai_
+
+<a href="/assets/papers/Research_on_the_Occupant_Discomfort_Due_to_Safety_Perception_in_Overtaking_Scenarios.pdf" class="tag"><small>PDF</small></a>
+<a href="#" onclick="copyText('Cite_discomfortZhao'); return false;" class="tag"><small>BibTeX</small></a>
+<a href="https://plu.mx/plum/a/?doi=10.4271/2022-01-7089" class="plumx-plum-print-popup" data-popup="right"></a>
 
 <p id="Cite_discomfortZhao" class="hidden-text">
 @inproceedings{2022-01-7089,
