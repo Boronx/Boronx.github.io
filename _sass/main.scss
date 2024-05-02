@@ -11,3 +11,16 @@
 @import 'layout/archives';
 @import 'layout/categories';
 @import 'layout/category-tag';
+
+.container-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 70%; /* 左侧占50%的宽度 */
+}
+
+.right {
+  width: 30%; /* 右侧占50%的宽度 */
+}

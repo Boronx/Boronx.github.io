@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 icon: fas fa-quote-left
 order: 2
 ---
@@ -16,9 +16,26 @@ function copyText(textToCopy) {
 }
 </script>
 
-# yes
+<script type="text/javascript" src="https://cdn.plu.mx/widget-popup.js"></script>
+
+<a href="https://plu.mx/plum/a/?doi=10.1371/journal.pone.0056506" class="plumx-plum-print-popup"></a>
 
 ## **Publications**
+
+<div class="container-two">
+  <div class="left">
+    <h3><a href="https://graz.elsevierpure.com/en/publications/chat2scenario-scenario-extraction-from-dataset-through-utilizatio">Chat2Scenario: Scenario Extraction From Dataset Through Utilization of Large Language Model</a></h3>
+    <p>Yongqi Zhao, <strong>Wenbo Xiao*</strong>, Tomislav Mihalj, Jia Hu and Arno Eichberger</p>
+    <p>In Arxiv (Preprint), IEEE IV Accepted, 2024</p>
+    <a href="https://arxiv.org/pdf/2404.16147" class="tag"><small>PDF</small></a>
+    <a href="https://github.com/ftgTUGraz/Chat2Scenario" class="tag"><small>CODE</small></a>
+    <a href="#" onclick="copyText('Cite_chat2s'); return false;" class="tag"><small>BibTeX</small></a>
+  </div>
+  <div class="right">
+    <a href="https://plu.mx/plum/a/?doi=10.1371/journal.pone.0056506" class="plumx-plum-print-popup"></a>
+    
+  </div>
+</div>
 
 ### [Chat2Scenario: Scenario Extraction From Dataset Through Utilization of Large Language Model](https://graz.elsevierpure.com/en/publications/chat2scenario-scenario-extraction-from-dataset-through-utilizatio)
 
