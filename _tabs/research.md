@@ -16,10 +16,6 @@ function copyText(textToCopy) {
 }
 </script>
 
-<script type="text/javascript" src="https://cdn.plu.mx/widget-popup.js"></script>
-
-<a href="https://plu.mx/plum/a/?doi=10.1371/journal.pone.0056506" class="plumx-plum-print-popup"></a>
-
 ## **Publications**
 
 <div class="container-two">
@@ -32,8 +28,20 @@ function copyText(textToCopy) {
     <a href="#" onclick="copyText('Cite_chat2s'); return false;" class="tag"><small>BibTeX</small></a>
   </div>
   <div class="right">
-    <a href="https://plu.mx/plum/a/?doi=10.1371/journal.pone.0056506" class="plumx-plum-print-popup"></a>
-    
+    <a href="https://plu.mx/plum/a/?arxiv=2404.16147" class="plumx-plum-print-popup" data-popup="right"></a>
+  </div>
+</div>
+
+<div class="container-two">
+  <div class="left">
+    <h3><a href="https://www.sae.org/publications/technical-papers/content/2022-01-7089/">Research on the Occupant Discomfort due to Safety Perception in Overtaking Scenarios</a></h3>
+    <p>Xingyu Zhao, <strong>Wenbo Xiao</strong>, Tao Zhou, Haolan Meng</p>
+    <p>SAE 2022 Intelligent and Connected Vehicles Symposium, ICVS 2022, Shanghai</p>
+    <a href="/assets/papers/Research_on_the_Occupant_Discomfort_Due_to_Safety_Perception_in_Overtaking_Scenarios.pdf" class="tag"><small>PDF</small></a>
+    <a href="#" onclick="copyText('Cite_discomfortZhao'); return false;" class="tag"><small>BibTeX</small></a>
+  </div>
+  <div class="right">
+    <a href="https://plu.mx/plum/a/?doi=10.4271/2022-01-7089" class="plumx-plum-print-popup" data-popup="right"></a>
   </div>
 </div>
 
@@ -56,14 +64,6 @@ _In Arxiv (Preprint), IEEE IV Accepted, 2024_
       primaryClass={cs.RO}
 }
 </p>
-
-### [Research on the Occupant Discomfort due to Safety Perception in Overtaking Scenarios](https://www.sae.org/publications/technical-papers/content/2022-01-7089/)
-
-_Xingyu Zhao, **Wenbo Xiao**, Tao Zhou, Haolan Meng_<br>
-_SAE 2022 Intelligent and Connected Vehicles Symposium, ICVS 2022, Shanghai_
-
-<a href="/assets/papers/Research_on_the_Occupant_Discomfort_Due_to_Safety_Perception_in_Overtaking_Scenarios.pdf" class="tag"><small>PDF</small></a>
-<a href="#" onclick="copyText('Cite_discomfortZhao'); return false;" class="tag"><small>BibTeX</small></a>
 
 <p id="Cite_discomfortZhao" class="hidden-text">
 @inproceedings{2022-01-7089,
