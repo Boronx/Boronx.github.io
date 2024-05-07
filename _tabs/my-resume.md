@@ -6,43 +6,33 @@ order: 1
 
 <!-- _Full screen width and center alignment_ use this as the caption -->
 
-## Xiao, Wenbo (肖文博) [`pdf` ](https://git-scm.com/)
+## Xiao, Wenbo (肖文博) [`pdfCV` ](https://git-scm.com/)
 
-
-
-<div style="display: flex; gap: 10px; ">
-  <div style="flex: 1; background-color: lightgray; padding: 5px; border-radius: 5px;">
-    这是左半边内容。
-  </div>
-  <div style="flex: 1; background-color: lightgray; padding: 5px; border-radius: 5px;">
-    这是右半边内容。
-  </div>
-</div>
----
+- Email: [wenbo.xiao@student.tugraz.at](mailto:wenbo.xiao@student.tugraz.at)
+- Mobile: +43-690-104-25998
+- Website: [https://boronx.github.io](https://boronx.github.io)
 
 ## Education
 
-### Austin scenester...
+### Graz University of Technology (Graz, Austria) _`Sep. 2023 -- Present`_
 
-<small>2008 - 2018</small>
+- **Master of Science in Mechanical Engineering** _`Institute of Automotive Engineering`_
+- **Relevant Courses:** Advance Algorithm Design and Analysis, Parallel Computing, Advance Intelligent Systems, Distributed Computing, Computer Vision
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+### Tongji University (Shanghi, China) _`Sep. 2022 -- Present`_
 
-### Vinyl hexagon before...
+- **Master of Science in Mechanical Engineering** _`Institute of Intelligent Vehicles`_
+- **Relevant Courses:** Advance Algorithm Design and Analysis, Parallel Computing, Advance Intelligent Systems, Distributed Computing, Computer Vision
 
-<small>2001 - 2008</small>
+### Tongji University (Shanghi, China) _`Sep. 2017 -- June. 2022`_
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle.
+- **Bachelor of Engineering in Mechanical Engineering** _`GPA: 4.4/5.0`_
+- **Relevant Courses:** Advance Algorithm Design and Analysis, Parallel Computing, Advance Intelligent Systems, Distributed Computing, Computer Vision
 
-### La croix you probably...
+## Experience
 
-<small>1995 - 2000</small>
+## Skills
 
----
+## Publications & Projects
 
-## Projects
-
----
-
-## Internship
+> Refer to [this page](https://boronx.github.io/research/)
