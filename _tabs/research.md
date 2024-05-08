@@ -71,7 +71,7 @@ _SAE 2022 Intelligent and Connected Vehicles Symposium, ICVS 2022, Shanghai_
 
 - Classification and Coding Methods of Driving Scenarios  
   _`Chinese patent`_ _`Number: CN202210473739.9`_
-- Classification and Coding Methods of Driving Scenarios  
+- A scenario generation method and system based on scenario classification
   `Chinese patent` `Number: CN202210473739.9`
 
 ---
@@ -82,18 +82,18 @@ _SAE 2022 Intelligent and Connected Vehicles Symposium, ICVS 2022, Shanghai_
 
 > _International coopperative R&D project between China and Austria_
 
-- **Website:**
-- **My role:** XXX
+- **Website:** [https://graz.elsevierpure.com/en/projects/pecop-key-technology-of-perception-and-control-in-cooperative-veh](https://graz.elsevierpure.com/en/projects/pecop-key-technology-of-perception-and-control-in-cooperative-veh)
+- **My role:** Research assistant in the realme virtual validation of automated driving systems.
 
 ### [Toolchain for Simulation and Digital-twin-based Evaluation of ADS](https://it.chd.edu.cn/2022/0130/c7383a210861/page.htm) `TJU`
 
 > _National Key Research and Development Program (2021YFB2501200)_ <br> _In Chinese: 国家重点研发计划项目“自动驾驶仿真及数字孪生测试评价工具链”_
 
 - **Website:** [_http://www.cavtetc.cn/_](http://www.cavtetc.cn/)
-- **My role:** XXX
+- **My role:** Research assistant in the realme of scenario-based validation and driving comfort evaluation.
 
 ### Scenario classification `TJU`
 
-### Perceived Safety for Vehicel Occupants `TJU`
+### Subjective Discomfort for Vehicel Occupants `TJU`
 
 >
