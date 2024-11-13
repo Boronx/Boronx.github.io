@@ -1,9 +1,10 @@
 ---
 title: LEETCODE - 子数组和相关问题
 author: Boron
+math: true
 date: 2024-11-12 14:08:00 +0100
 categories: [Blogs, Coding]
-tags: [C++, Coding, 算法]
+tags: [cpp, Coding, 算法]
 ---
 
 # **子数组问题总结**
@@ -53,7 +54,7 @@ DP 五步骤：
 
 举例：
 
-```C++
+```cpp
 class Solution {
 public:
 	int maxProduct(vectot<int>& nums){
@@ -92,7 +93,7 @@ public:
 
 举例
 
-```C++
+```cpp
 class Solution {
 public:
     long long solve(vector<int>& nums) {
@@ -133,7 +134,7 @@ public:
 
 [300. 最长递增子序列 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-increasing-subsequence/)
 
-```C++
+```cpp
 #include <vector>
 #include <algorithm>
 using namespace std;
