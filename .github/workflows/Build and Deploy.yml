@@ -48,6 +48,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
 
+      - name: Install rake
+        run: gem install rake
+
       - name: Build Assets
         run: npm i && npm run build
 
